@@ -10,22 +10,13 @@ This application is a **Data Extractor** that utilizes deep learning to extract 
 
 ## Setup Instructions
 
-### 1. Environment Setup
-1. Install Python (>=3.8).
-2. Set up a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # For Linux/MacOS
-   venv\Scripts\activate      # For Windows
-   ```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 Install the required Python packages from the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Prepare Model and Tokenizer Files
+### 2. Prepare Model and Tokenizer Files
 Ensure the following files are placed in the same directory as `app.py`:
 - `model.h5` - The pre-trained deep learning model.
 - `tokenizer.pickle` - The tokenizer used for text preprocessing.
