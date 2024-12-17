@@ -1,0 +1,5 @@
+customtkinter==5.2.2
+keras==3.5.0
+numpy==2.2.0
+tensorflow==2.17.0
+tensorflow_intel==2.17.0

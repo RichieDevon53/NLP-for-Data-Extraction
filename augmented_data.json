@@ -1,0 +1,3573 @@
+[
+    {
+        "input": "Saya mau memesan 5 piring dan 4 gelas dengan motif floral",
+        "output": {
+            "Jumlah barang": [
+                5,
+                4
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 10 gelas dengan motif kotak-kotak ke Jakarta Selatan",
+        "output": {
+            "Jumlah barang": [
+                10
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "kotak-kotak",
+            "Lokasi Pengiriman": "Jakarta Selatan"
+        }
+    },
+    {
+        "input": "Saya membutuhkan gelas dan piring dengan motif etnik",
+        "output": {
+            "Jumlah barang": [],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya membutuhkan gelas dan piring dengan motif etnik",
+        "output": {
+            "Jumlah barang": [],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Mohon kirimkan 3 piring dan 2 cangkir dengan motif polkadot ke Bandung",
+        "output": {
+            "Jumlah barang": [
+                3,
+                2
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "polkadot",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 3 piring dan 2 cangkir dengan motif polkadot ke Bandung",
+        "output": {
+            "Jumlah barang": [
+                3,
+                2
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "polkadot",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 7 gelas tanpa motif",
+        "output": {
+            "Jumlah barang": [
+                7
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "tanpa motif",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin membeli 7 gelas tanpa motif",
+        "output": {
+            "Jumlah barang": [
+                7
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "tanpa motif",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 4 piring dengan motif bunga-bunga ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": "bunga-bunga",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Saya memesan 8 cangkir dengan motif garis-garis dan 5 gelas ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                8,
+                5
+            ],
+            "Nama barang": [
+                "cangkir",
+                "gelas"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Saya memesan 8 cangkir dengan motif garis-garis dan 5 gelas ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                8,
+                5
+            ],
+            "Nama barang": [
+                "cangkir",
+                "gelas"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Butuh 12 piring bermotif abstrak",
+        "output": {
+            "Jumlah barang": [
+                12
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Butuh 12 piring bermotif abstrak",
+        "output": {
+            "Jumlah barang": [
+                12
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong pesan 6 piring, 6 gelas, dan 6 cangkir dengan motif batik ke Bali",
+        "output": {
+            "Jumlah barang": [
+                6,
+                6,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas",
+                "cangkir"
+            ],
+            "Motif": "batik",
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Saya perlu 5 piring dengan motif minimalis dan 3 gelas tanpa motif ke Semarang",
+        "output": {
+            "Jumlah barang": [
+                5,
+                3
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": [
+                "minimalis",
+                "tanpa motif"
+            ],
+            "Lokasi Pengiriman": "Semarang"
+        }
+    },
+    {
+        "input": "Saya perlu 5 piring dengan motif minimalis dan 3 gelas tanpa motif ke Semarang",
+        "output": {
+            "Jumlah barang": [
+                5,
+                3
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": [
+                "minimalis",
+                "tanpa motif"
+            ],
+            "Lokasi Pengiriman": "Semarang"
+        }
+    },
+    {
+        "input": "Saya mau memesan 9 piring dan 2 cangkir dengan motif daun",
+        "output": {
+            "Jumlah barang": [
+                9,
+                2
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "daun",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 15 gelas bermotif geometris ke Denpasar",
+        "output": {
+            "Jumlah barang": [
+                15
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "geometris",
+            "Lokasi Pengiriman": "Denpasar"
+        }
+    },
+    {
+        "input": "Kirimkan 10 piring bermotif etnik dan 8 cangkir ke Makassar",
+        "output": {
+            "Jumlah barang": [
+                10,
+                8
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Makassar"
+        }
+    },
+    {
+        "input": "Kirimkan 10 piring bermotif etnik dan 8 cangkir ke Makassar",
+        "output": {
+            "Jumlah barang": [
+                10,
+                8
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Makassar"
+        }
+    },
+    {
+        "input": "Saya memesan 7 gelas tanpa motif dan 6 piring ke Malang",
+        "output": {
+            "Jumlah barang": [
+                7,
+                6
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "tanpa motif",
+            "Lokasi Pengiriman": "Malang"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 3 piring dan 5 gelas bermotif garis ke Jakarta Utara",
+        "output": {
+            "Jumlah barang": [
+                3,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "garis",
+            "Lokasi Pengiriman": "Jakarta Utara"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 3 piring dan 5 gelas bermotif garis ke Jakarta Utara",
+        "output": {
+            "Jumlah barang": [
+                3,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "garis",
+            "Lokasi Pengiriman": "Jakarta Utara"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 4 mangkuk dengan motif gelombang ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "gelombang",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 4 mangkuk dengan motif gelombang ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "gelombang",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Kirimkan 8 piring, 3 cangkir, dan 10 sendok bermotif modern ke Bandung",
+        "output": {
+            "Jumlah barang": [
+                8,
+                3,
+                10
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir",
+                "sendok"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Butuh 12 gelas dengan motif hewan dan 4 mangkuk ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                12,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": "hewan",
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Butuh 12 gelas dengan motif hewan dan 4 mangkuk ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                12,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": "hewan",
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Tolong kirim 5 piring bermotif klasik dan 6 gelas ke Medan",
+        "output": {
+            "Jumlah barang": [
+                5,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "klasik",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Saya pesan 7 piring dan 7 sendok bermotif kayu ke Makassar",
+        "output": {
+            "Jumlah barang": [
+                7,
+                7
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "kayu",
+            "Lokasi Pengiriman": "Makassar"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 3 gelas, 2 piring, dan 8 mangkuk bermotif bintang ke Bali",
+        "output": {
+            "Jumlah barang": [
+                3,
+                2,
+                8
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring",
+                "mangkuk"
+            ],
+            "Motif": "bintang",
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Pesan 5 sendok bermotif garis, 5 cangkir polos ke Jakarta Timur",
+        "output": {
+            "Jumlah barang": [
+                5,
+                5
+            ],
+            "Nama barang": [
+                "sendok",
+                "cangkir"
+            ],
+            "Motif": [
+                "garis",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Jakarta Timur"
+        }
+    },
+    {
+        "input": "Saya mau memesan 9 piring polos dan 9 cangkir ke Bogor",
+        "output": {
+            "Jumlah barang": [
+                9,
+                9
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "polos",
+            "Lokasi Pengiriman": "Bogor"
+        }
+    },
+    {
+        "input": "Kirimkan 12 piring motif daun, 6 sendok, dan 4 cangkir ke Surakarta",
+        "output": {
+            "Jumlah barang": [
+                12,
+                6,
+                4
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok",
+                "cangkir"
+            ],
+            "Motif": "daun",
+            "Lokasi Pengiriman": "Surakarta"
+        }
+    },
+    {
+        "input": "Kirimkan 12 piring motif daun, 6 sendok, dan 4 cangkir ke Surakarta",
+        "output": {
+            "Jumlah barang": [
+                12,
+                6,
+                4
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok",
+                "cangkir"
+            ],
+            "Motif": "daun",
+            "Lokasi Pengiriman": "Surakarta"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 4 gelas tanpa motif, 6 piring bergaris ke Malang",
+        "output": {
+            "Jumlah barang": [
+                4,
+                6
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": [
+                "tanpa motif",
+                "bergaris"
+            ],
+            "Lokasi Pengiriman": "Malang"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 4 gelas tanpa motif, 6 piring bergaris ke Malang",
+        "output": {
+            "Jumlah barang": [
+                4,
+                6
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": [
+                "tanpa motif",
+                "bergaris"
+            ],
+            "Lokasi Pengiriman": "Malang"
+        }
+    },
+    {
+        "input": "Saya pesan 10 cangkir dan 5 piring bermotif abstrak ke Samarinda",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": "Samarinda"
+        }
+    },
+    {
+        "input": "Saya pesan 10 cangkir dan 5 piring bermotif abstrak ke Samarinda",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": "Samarinda"
+        }
+    },
+    {
+        "input": "Tolong pesan 3 sendok bermotif kotak-kotak ke Manado",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": "kotak-kotak",
+            "Lokasi Pengiriman": "Manado"
+        }
+    },
+    {
+        "input": "Butuh 7 piring polos dan 2 cangkir bermotif batik ke Padang",
+        "output": {
+            "Jumlah barang": [
+                7,
+                2
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": [
+                "polos",
+                "batik"
+            ],
+            "Lokasi Pengiriman": "Padang"
+        }
+    },
+    {
+        "input": "Butuh 7 piring polos dan 2 cangkir bermotif batik ke Padang",
+        "output": {
+            "Jumlah barang": [
+                7,
+                2
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": [
+                "polos",
+                "batik"
+            ],
+            "Lokasi Pengiriman": "Padang"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 8 gelas dengan motif garis-garis ke Banjarmasin",
+        "output": {
+            "Jumlah barang": [
+                8
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": "Banjarmasin"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 8 gelas dengan motif garis-garis ke Banjarmasin",
+        "output": {
+            "Jumlah barang": [
+                8
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": "Banjarmasin"
+        }
+    },
+    {
+        "input": "Pesan 10 mangkuk motif spiral dan 6 gelas ke Depok",
+        "output": {
+            "Jumlah barang": [
+                10,
+                6
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "gelas"
+            ],
+            "Motif": "spiral",
+            "Lokasi Pengiriman": "Depok"
+        }
+    },
+    {
+        "input": "Pesan 10 mangkuk motif spiral dan 6 gelas ke Depok",
+        "output": {
+            "Jumlah barang": [
+                10,
+                6
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "gelas"
+            ],
+            "Motif": "spiral",
+            "Lokasi Pengiriman": "Depok"
+        }
+    },
+    {
+        "input": "Saya butuh 5 piring dengan motif lingkaran ke Bekasi",
+        "output": {
+            "Jumlah barang": [
+                5
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": "lingkaran",
+            "Lokasi Pengiriman": "Bekasi"
+        }
+    },
+    {
+        "input": "Kirimkan 7 gelas bermotif abstrak dan 4 sendok ke Tangerang",
+        "output": {
+            "Jumlah barang": [
+                7,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "sendok"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": "Tangerang"
+        }
+    },
+    {
+        "input": "Kirimkan 7 gelas bermotif abstrak dan 4 sendok ke Tangerang",
+        "output": {
+            "Jumlah barang": [
+                7,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "sendok"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": "Tangerang"
+        }
+    },
+    {
+        "input": "Saya pesan 9 piring polos dan 3 mangkuk bermotif daun ke Pontianak",
+        "output": {
+            "Jumlah barang": [
+                9,
+                3
+            ],
+            "Nama barang": [
+                "piring",
+                "mangkuk"
+            ],
+            "Motif": [
+                "polos",
+                "daun"
+            ],
+            "Lokasi Pengiriman": "Pontianak"
+        }
+    },
+    {
+        "input": "Saya pesan 9 piring polos dan 3 mangkuk bermotif daun ke Pontianak",
+        "output": {
+            "Jumlah barang": [
+                9,
+                3
+            ],
+            "Nama barang": [
+                "piring",
+                "mangkuk"
+            ],
+            "Motif": [
+                "polos",
+                "daun"
+            ],
+            "Lokasi Pengiriman": "Pontianak"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 2 cangkir tanpa motif ke Batam",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": "tanpa motif",
+            "Lokasi Pengiriman": "Batam"
+        }
+    },
+    {
+        "input": "Tolong pesan 4 gelas bermotif garis ke Medan",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "garis",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Pesan 12 sendok dan 8 piring dengan motif bunga ke Semarang",
+        "output": {
+            "Jumlah barang": [
+                12,
+                8
+            ],
+            "Nama barang": [
+                "sendok",
+                "piring"
+            ],
+            "Motif": "bunga",
+            "Lokasi Pengiriman": "Semarang"
+        }
+    },
+    {
+        "input": "Pesan 12 sendok dan 8 piring dengan motif bunga ke Semarang",
+        "output": {
+            "Jumlah barang": [
+                12,
+                8
+            ],
+            "Nama barang": [
+                "sendok",
+                "piring"
+            ],
+            "Motif": "bunga",
+            "Lokasi Pengiriman": "Semarang"
+        }
+    },
+    {
+        "input": "Saya mau memesan 6 cangkir bermotif kotak-kotak dan 7 piring ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                6,
+                7
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": "kotak-kotak",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Saya mau memesan 6 cangkir bermotif kotak-kotak dan 7 piring ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                6,
+                7
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": "kotak-kotak",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Butuh 8 gelas dan 3 mangkuk dengan motif kayu ke Denpasar",
+        "output": {
+            "Jumlah barang": [
+                8,
+                3
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": "kayu",
+            "Lokasi Pengiriman": "Denpasar"
+        }
+    },
+    {
+        "input": "Kirimkan 5 piring dan 5 sendok dengan motif polkadot ke Manado",
+        "output": {
+            "Jumlah barang": [
+                5,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "polkadot",
+            "Lokasi Pengiriman": "Manado"
+        }
+    },
+    {
+        "input": "Kirimkan 5 piring dan 5 sendok dengan motif polkadot ke Manado",
+        "output": {
+            "Jumlah barang": [
+                5,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "polkadot",
+            "Lokasi Pengiriman": "Manado"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 3 cangkir dengan motif garis-garis ke Makassar",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": "Makassar"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 3 cangkir dengan motif garis-garis ke Makassar",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": "Makassar"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 15 mangkuk bermotif etnik dan 7 sendok ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                15,
+                7
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Pesan 6 gelas dan 2 piring bermotif minimalis ke Bali",
+        "output": {
+            "Jumlah barang": [
+                6,
+                2
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "minimalis",
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Kirimkan 10 sendok tanpa motif ke Jakarta Pusat",
+        "output": {
+            "Jumlah barang": [
+                10
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": "tanpa motif",
+            "Lokasi Pengiriman": "Jakarta Pusat"
+        }
+    },
+    {
+        "input": "Kirimkan 10 sendok tanpa motif ke Jakarta Pusat",
+        "output": {
+            "Jumlah barang": [
+                10
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": "tanpa motif",
+            "Lokasi Pengiriman": "Jakarta Pusat"
+        }
+    },
+    {
+        "input": "Saya butuh 4 piring bermotif gelombang dan 6 gelas polos ke Palangkaraya",
+        "output": {
+            "Jumlah barang": [
+                4,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": [
+                "gelombang",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Palangkaraya"
+        }
+    },
+    {
+        "input": "Kirimkan 5 cangkir dan 3 piring bermotif modern ke Mataram",
+        "output": {
+            "Jumlah barang": [
+                5,
+                3
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": "Mataram"
+        }
+    },
+    {
+        "input": "Kirimkan 5 cangkir dan 3 piring bermotif modern ke Mataram",
+        "output": {
+            "Jumlah barang": [
+                5,
+                3
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": "Mataram"
+        }
+    },
+    {
+        "input": "Saya memesan 12 sendok bermotif etnik dan 7 gelas ke Balikpapan",
+        "output": {
+            "Jumlah barang": [
+                12,
+                7
+            ],
+            "Nama barang": [
+                "sendok",
+                "gelas"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Balikpapan"
+        }
+    },
+    {
+        "input": "Saya memesan 12 sendok bermotif etnik dan 7 gelas ke Balikpapan",
+        "output": {
+            "Jumlah barang": [
+                12,
+                7
+            ],
+            "Nama barang": [
+                "sendok",
+                "gelas"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Balikpapan"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 3 mangkuk dengan motif spiral ke Pontianak",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "spiral",
+            "Lokasi Pengiriman": "Pontianak"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 3 mangkuk dengan motif spiral ke Pontianak",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "spiral",
+            "Lokasi Pengiriman": "Pontianak"
+        }
+    },
+    {
+        "input": "Pesan 10 piring, 5 sendok, dan 6 cangkir bermotif floral ke Batam",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok",
+                "cangkir"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Batam"
+        }
+    },
+    {
+        "input": "Pesan 10 piring, 5 sendok, dan 6 cangkir bermotif floral ke Batam",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok",
+                "cangkir"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Batam"
+        }
+    },
+    {
+        "input": "Saya butuh 8 gelas polos dan 4 piring bermotif abstrak ke Bandar Lampung",
+        "output": {
+            "Jumlah barang": [
+                8,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": [
+                "polos",
+                "abstrak"
+            ],
+            "Lokasi Pengiriman": "Bandar Lampung"
+        }
+    },
+    {
+        "input": "Saya butuh 8 gelas polos dan 4 piring bermotif abstrak ke Bandar Lampung",
+        "output": {
+            "Jumlah barang": [
+                8,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": [
+                "polos",
+                "abstrak"
+            ],
+            "Lokasi Pengiriman": "Bandar Lampung"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 15 cangkir dan 10 mangkuk bermotif geometris ke Jayapura",
+        "output": {
+            "Jumlah barang": [
+                15,
+                10
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "geometris",
+            "Lokasi Pengiriman": "Jayapura"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 15 cangkir dan 10 mangkuk bermotif geometris ke Jayapura",
+        "output": {
+            "Jumlah barang": [
+                15,
+                10
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "geometris",
+            "Lokasi Pengiriman": "Jayapura"
+        }
+    },
+    {
+        "input": "Kirimkan 2 sendok dan 5 gelas bermotif batik ke Tasikmalaya",
+        "output": {
+            "Jumlah barang": [
+                2,
+                5
+            ],
+            "Nama barang": [
+                "sendok",
+                "gelas"
+            ],
+            "Motif": "batik",
+            "Lokasi Pengiriman": "Tasikmalaya"
+        }
+    },
+    {
+        "input": "Tolong pesan 6 piring bermotif kayu dan 3 cangkir polos ke Jambi",
+        "output": {
+            "Jumlah barang": [
+                6,
+                3
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": [
+                "kayu",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Jambi"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 5 mangkuk dan 4 sendok bermotif lingkaran ke Padang",
+        "output": {
+            "Jumlah barang": [
+                5,
+                4
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": "lingkaran",
+            "Lokasi Pengiriman": "Padang"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 5 mangkuk dan 4 sendok bermotif lingkaran ke Padang",
+        "output": {
+            "Jumlah barang": [
+                5,
+                4
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": "lingkaran",
+            "Lokasi Pengiriman": "Padang"
+        }
+    },
+    {
+        "input": "Kirimkan 7 gelas bermotif abstrak dan 3 piring ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                7,
+                3
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Kirimkan 7 gelas bermotif abstrak dan 3 piring ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                7,
+                3
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Saya butuh 8 cangkir dengan motif garis dan 6 piring ke Medan",
+        "output": {
+            "Jumlah barang": [
+                8,
+                6
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": "garis",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Saya butuh 8 cangkir dengan motif garis dan 6 piring ke Medan",
+        "output": {
+            "Jumlah barang": [
+                8,
+                6
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": "garis",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 6 piring dan 4 sendok bermotif etnik ke Banjarmasin",
+        "output": {
+            "Jumlah barang": [
+                6,
+                4
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Banjarmasin"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 6 piring dan 4 sendok bermotif etnik ke Banjarmasin",
+        "output": {
+            "Jumlah barang": [
+                6,
+                4
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Banjarmasin"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 10 cangkir bermotif kotak-kotak dan 5 mangkuk ke Ambon",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "kotak-kotak",
+            "Lokasi Pengiriman": "Ambon"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 10 cangkir bermotif kotak-kotak dan 5 mangkuk ke Ambon",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "kotak-kotak",
+            "Lokasi Pengiriman": "Ambon"
+        }
+    },
+    {
+        "input": "Saya pesan 12 sendok dan 8 gelas dengan motif floral ke Pekanbaru",
+        "output": {
+            "Jumlah barang": [
+                12,
+                8
+            ],
+            "Nama barang": [
+                "sendok",
+                "gelas"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Pekanbaru"
+        }
+    },
+    {
+        "input": "Butuh 3 piring bermotif bintang dan 7 gelas ke Samarinda",
+        "output": {
+            "Jumlah barang": [
+                3,
+                7
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "bintang",
+            "Lokasi Pengiriman": "Samarinda"
+        }
+    },
+    {
+        "input": "Butuh 3 piring bermotif bintang dan 7 gelas ke Samarinda",
+        "output": {
+            "Jumlah barang": [
+                3,
+                7
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "bintang",
+            "Lokasi Pengiriman": "Samarinda"
+        }
+    },
+    {
+        "input": "Kirimkan 5 mangkuk dengan motif spiral dan 2 cangkir ke Kupang",
+        "output": {
+            "Jumlah barang": [
+                5,
+                2
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "cangkir"
+            ],
+            "Motif": "spiral",
+            "Lokasi Pengiriman": "Kupang"
+        }
+    },
+    {
+        "input": "Saya mau memesan 9 piring dan 4 sendok bermotif geometris ke Pontianak",
+        "output": {
+            "Jumlah barang": [
+                9,
+                4
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "geometris",
+            "Lokasi Pengiriman": "Pontianak"
+        }
+    },
+    {
+        "input": "Saya mau memesan 9 piring dan 4 sendok bermotif geometris ke Pontianak",
+        "output": {
+            "Jumlah barang": [
+                9,
+                4
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "geometris",
+            "Lokasi Pengiriman": "Pontianak"
+        }
+    },
+    {
+        "input": "Pesan 7 gelas dan 6 cangkir bermotif kayu ke Bandung",
+        "output": {
+            "Jumlah barang": [
+                7,
+                6
+            ],
+            "Nama barang": [
+                "gelas",
+                "cangkir"
+            ],
+            "Motif": "kayu",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Pesan 7 gelas dan 6 cangkir bermotif kayu ke Bandung",
+        "output": {
+            "Jumlah barang": [
+                7,
+                6
+            ],
+            "Nama barang": [
+                "gelas",
+                "cangkir"
+            ],
+            "Motif": "kayu",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Kirimkan 8 sendok dengan motif lingkaran ke Malang",
+        "output": {
+            "Jumlah barang": [
+                8
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": "lingkaran",
+            "Lokasi Pengiriman": "Malang"
+        }
+    },
+    {
+        "input": "Saya butuh 10 piring dengan motif abstrak dan 5 gelas ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Saya butuh 10 piring dengan motif abstrak dan 5 gelas ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "abstrak",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 3 mangkuk polos dan 6 cangkir ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                3,
+                6
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "cangkir"
+            ],
+            "Motif": "polos",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Pesan 15 gelas dan 10 sendok bermotif modern ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                15,
+                10
+            ],
+            "Nama barang": [
+                "gelas",
+                "sendok"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Pesan 15 gelas dan 10 sendok bermotif modern ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                15,
+                10
+            ],
+            "Nama barang": [
+                "gelas",
+                "sendok"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Kirimkan 5 cangkir dan 8 mangkuk dengan motif garis ke Jakarta",
+        "output": {
+            "Jumlah barang": [
+                5,
+                8
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "garis",
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 6 gelas, 4 mangkuk, dan 2 sendok dengan motif tribal ke Bandung",
+        "output": {
+            "Jumlah barang": [
+                6,
+                4,
+                2
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": "tribal",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 7 piring dan 5 cangkir bermotif fauna ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                7,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "fauna",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 7 piring dan 5 cangkir bermotif fauna ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                7,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "fauna",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Tolong pesan 10 piring polos, 8 sendok bermotif bunga, dan 5 cangkir ke Bali",
+        "output": {
+            "Jumlah barang": [
+                10,
+                8,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok",
+                "cangkir"
+            ],
+            "Motif": [
+                "polos",
+                "bunga"
+            ],
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Saya memesan 12 gelas bermotif vintage dan 6 mangkuk ke Medan",
+        "output": {
+            "Jumlah barang": [
+                12,
+                6
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": "vintage",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Kirimkan 8 cangkir, 3 sendok, dan 5 piring dengan motif laut ke Jakarta Pusat",
+        "output": {
+            "Jumlah barang": [
+                8,
+                3,
+                5
+            ],
+            "Nama barang": [
+                "cangkir",
+                "sendok",
+                "piring"
+            ],
+            "Motif": "laut",
+            "Lokasi Pengiriman": "Jakarta Pusat"
+        }
+    },
+    {
+        "input": "Kirimkan 8 cangkir, 3 sendok, dan 5 piring dengan motif laut ke Jakarta Pusat",
+        "output": {
+            "Jumlah barang": [
+                8,
+                3,
+                5
+            ],
+            "Nama barang": [
+                "cangkir",
+                "sendok",
+                "piring"
+            ],
+            "Motif": "laut",
+            "Lokasi Pengiriman": "Jakarta Pusat"
+        }
+    },
+    {
+        "input": "Saya butuh 3 gelas bermotif abstrak dan 10 sendok polos ke Jakarta Barat",
+        "output": {
+            "Jumlah barang": [
+                3,
+                10
+            ],
+            "Nama barang": [
+                "gelas",
+                "sendok"
+            ],
+            "Motif": [
+                "abstrak",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Jakarta Barat"
+        }
+    },
+    {
+        "input": "Tolong pesan 15 piring bermotif tribal dan 6 gelas ke Denpasar",
+        "output": {
+            "Jumlah barang": [
+                15,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "tribal",
+            "Lokasi Pengiriman": "Denpasar"
+        }
+    },
+    {
+        "input": "Tolong pesan 15 piring bermotif tribal dan 6 gelas ke Denpasar",
+        "output": {
+            "Jumlah barang": [
+                15,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "tribal",
+            "Lokasi Pengiriman": "Denpasar"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 8 sendok dan 4 mangkuk dengan motif bunga-bunga ke Semarang",
+        "output": {
+            "Jumlah barang": [
+                8,
+                4
+            ],
+            "Nama barang": [
+                "sendok",
+                "mangkuk"
+            ],
+            "Motif": "bunga-bunga",
+            "Lokasi Pengiriman": "Semarang"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 8 sendok dan 4 mangkuk dengan motif bunga-bunga ke Semarang",
+        "output": {
+            "Jumlah barang": [
+                8,
+                4
+            ],
+            "Nama barang": [
+                "sendok",
+                "mangkuk"
+            ],
+            "Motif": "bunga-bunga",
+            "Lokasi Pengiriman": "Semarang"
+        }
+    },
+    {
+        "input": "Saya pesan 7 cangkir polos dan 10 piring bermotif klasik ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                7,
+                10
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": [
+                "polos",
+                "klasik"
+            ],
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Saya pesan 7 cangkir polos dan 10 piring bermotif klasik ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                7,
+                10
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": [
+                "polos",
+                "klasik"
+            ],
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Pesan 12 mangkuk dan 8 sendok dengan motif etnik ke Bandung",
+        "output": {
+            "Jumlah barang": [
+                12,
+                8
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 5 piring bermotif modern dan 6 gelas polos ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                5,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": [
+                "modern",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Kirimkan 3 cangkir dengan motif minimalis dan 7 sendok ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                3,
+                7
+            ],
+            "Nama barang": [
+                "cangkir",
+                "sendok"
+            ],
+            "Motif": [
+                "minimalis"
+            ],
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Tolong pesan 6 gelas bermotif kotak-kotak dan 4 mangkuk ke Padang",
+        "output": {
+            "Jumlah barang": [
+                6,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": "kotak-kotak",
+            "Lokasi Pengiriman": "Padang"
+        }
+    },
+    {
+        "input": "Saya butuh 8 piring polos dan 5 cangkir bermotif daun ke Pontianak",
+        "output": {
+            "Jumlah barang": [
+                8,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": [
+                "polos",
+                "daun"
+            ],
+            "Lokasi Pengiriman": "Pontianak"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 9 mangkuk dan 6 sendok bermotif garis ke Samarinda",
+        "output": {
+            "Jumlah barang": [
+                9,
+                6
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": "garis",
+            "Lokasi Pengiriman": "Samarinda"
+        }
+    },
+    {
+        "input": "Pesan 5 cangkir bermotif spiral dan 7 gelas polos ke Manado",
+        "output": {
+            "Jumlah barang": [
+                5,
+                7
+            ],
+            "Nama barang": [
+                "cangkir",
+                "gelas"
+            ],
+            "Motif": [
+                "spiral",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Manado"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 4 mangkuk dan 3 piring bermotif kayu ke Ambon",
+        "output": {
+            "Jumlah barang": [
+                4,
+                3
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "piring"
+            ],
+            "Motif": "kayu",
+            "Lokasi Pengiriman": "Ambon"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 4 mangkuk dan 3 piring bermotif kayu ke Ambon",
+        "output": {
+            "Jumlah barang": [
+                4,
+                3
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "piring"
+            ],
+            "Motif": "kayu",
+            "Lokasi Pengiriman": "Ambon"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 8 sendok bermotif geometris dan 10 gelas ke Tasikmalaya",
+        "output": {
+            "Jumlah barang": [
+                8,
+                10
+            ],
+            "Nama barang": [
+                "sendok",
+                "gelas"
+            ],
+            "Motif": "geometris",
+            "Lokasi Pengiriman": "Tasikmalaya"
+        }
+    },
+    {
+        "input": "Pesan 12 cangkir dan 9 mangkuk bermotif floral ke Jayapura",
+        "output": {
+            "Jumlah barang": [
+                12,
+                9
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Jayapura"
+        }
+    },
+    {
+        "input": "Saya mau membeli 10 piring bermotif hewan dan 5 sendok ke Kupang",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "hewan",
+            "Lokasi Pengiriman": "Kupang"
+        }
+    },
+    {
+        "input": "Saya mau membeli 10 piring bermotif hewan dan 5 sendok ke Kupang",
+        "output": {
+            "Jumlah barang": [
+                10,
+                5
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "hewan",
+            "Lokasi Pengiriman": "Kupang"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 6 gelas bermotif lingkaran dan 4 mangkuk polos ke Malang",
+        "output": {
+            "Jumlah barang": [
+                6,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": [
+                "lingkaran",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Malang"
+        }
+    },
+    {
+        "input": "Mohon kirimkan 6 gelas bermotif lingkaran dan 4 mangkuk polos ke Malang",
+        "output": {
+            "Jumlah barang": [
+                6,
+                4
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": [
+                "lingkaran",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Malang"
+        }
+    },
+    {
+        "input": "Tolong pesan 5 cangkir dengan motif tradisional dan 7 sendok ke Mataram",
+        "output": {
+            "Jumlah barang": [
+                5,
+                7
+            ],
+            "Nama barang": [
+                "cangkir",
+                "sendok"
+            ],
+            "Motif": "tradisional",
+            "Lokasi Pengiriman": "Mataram"
+        }
+    },
+    {
+        "input": "Saya butuh 8 piring polos dan 6 gelas bermotif modern ke Pekanbaru",
+        "output": {
+            "Jumlah barang": [
+                8,
+                6
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": [
+                "polos",
+                "modern"
+            ],
+            "Lokasi Pengiriman": "Pekanbaru"
+        }
+    },
+    {
+        "input": "Kirimkan 7 mangkuk bermotif batik dan 4 sendok polos ke Balikpapan",
+        "output": {
+            "Jumlah barang": [
+                7,
+                4
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": [
+                "batik",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Balikpapan"
+        }
+    },
+    {
+        "input": "Kirimkan 7 mangkuk bermotif batik dan 4 sendok polos ke Balikpapan",
+        "output": {
+            "Jumlah barang": [
+                7,
+                4
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": [
+                "batik",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Balikpapan"
+        }
+    },
+    {
+        "input": "Pesan gelas bermotif kotak-kotak dan piring polos ke Tangerang",
+        "output": {
+            "Jumlah barang": [],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": [
+                "kotak-kotak",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Tangerang"
+        }
+    },
+    {
+        "input": "Pesan gelas bermotif kotak-kotak dan piring polos ke Tangerang",
+        "output": {
+            "Jumlah barang": [],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": [
+                "kotak-kotak",
+                "polos"
+            ],
+            "Lokasi Pengiriman": "Tangerang"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 1 cangkir bermotif modern ke Jakarta",
+        "output": {
+            "Jumlah barang": [
+                1
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 2 piring dan 3 sendok bermotif klasik ke Bandung",
+        "output": {
+            "Jumlah barang": [
+                2,
+                3
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "klasik",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Pesan 4 mangkuk bermotif etnik ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Pesan 4 mangkuk bermotif etnik ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Saya butuh 3 gelas dan 1 piring bermotif daun ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                3,
+                1
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "daun",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Kirimkan 2 cangkir dan 2 mangkuk bermotif floral ke Medan",
+        "output": {
+            "Jumlah barang": [
+                2,
+                2
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Tolong pesan 1 sendok dan 4 gelas bermotif geometris ke Bali",
+        "output": {
+            "Jumlah barang": [
+                1,
+                4
+            ],
+            "Nama barang": [
+                "sendok",
+                "gelas"
+            ],
+            "Motif": "geometris",
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 3 piring dan 1 cangkir bermotif vintage ke Jakarta Selatan",
+        "output": {
+            "Jumlah barang": [
+                3,
+                1
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "vintage",
+            "Lokasi Pengiriman": "Jakarta Selatan"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 3 piring dan 1 cangkir bermotif vintage ke Jakarta Selatan",
+        "output": {
+            "Jumlah barang": [
+                3,
+                1
+            ],
+            "Nama barang": [
+                "piring",
+                "cangkir"
+            ],
+            "Motif": "vintage",
+            "Lokasi Pengiriman": "Jakarta Selatan"
+        }
+    },
+    {
+        "input": "Kirimkan 4 sendok dan 2 mangkuk bermotif batik ke Makassar",
+        "output": {
+            "Jumlah barang": [
+                4,
+                2
+            ],
+            "Nama barang": [
+                "sendok",
+                "mangkuk"
+            ],
+            "Motif": "batik",
+            "Lokasi Pengiriman": "Makassar"
+        }
+    },
+    {
+        "input": "Pesan 1 gelas dan 3 piring bermotif garis-garis ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                1,
+                3
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Pesan 1 gelas dan 3 piring bermotif garis-garis ke Palembang",
+        "output": {
+            "Jumlah barang": [
+                1,
+                3
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": "Palembang"
+        }
+    },
+    {
+        "input": "Saya butuh 2 piring dan 2 sendok bermotif polkadot ke Tangerang",
+        "output": {
+            "Jumlah barang": [
+                2,
+                2
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "polkadot",
+            "Lokasi Pengiriman": "Tangerang"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 1 cangkir ke Jakarta",
+        "output": {
+            "Jumlah barang": [
+                1
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 1 cangkir ke Jakarta",
+        "output": {
+            "Jumlah barang": [
+                1
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Tolong kirimkan 2 piring dan 1 sendok",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 2 piring dan 1 sendok",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan mangkuk bermotif floral ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Pesan mangkuk bermotif floral ke Yogyakarta",
+        "output": {
+            "Jumlah barang": [],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Yogyakarta"
+        }
+    },
+    {
+        "input": "Saya butuh 1 gelas dan 2 piring",
+        "output": {
+            "Jumlah barang": [
+                1,
+                2
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 2 cangkir dan 1 sendok bermotif geometris ke Bali",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "sendok"
+            ],
+            "Motif": "geometris",
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 1 piring",
+        "output": {
+            "Jumlah barang": [
+                1
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 2 sendok dan 2 mangkuk bermotif etnik",
+        "output": {
+            "Jumlah barang": [
+                2,
+                2
+            ],
+            "Nama barang": [
+                "sendok",
+                "mangkuk"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 3 gelas dan 1 piring bermotif klasik ke Medan",
+        "output": {
+            "Jumlah barang": [
+                3,
+                1
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": "klasik",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Saya butuh 1 cangkir dan 1 sendok",
+        "output": {
+            "Jumlah barang": [
+                1,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya butuh 1 cangkir dan 1 sendok",
+        "output": {
+            "Jumlah barang": [
+                1,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 2 piring dan 1 gelas bermotif polkadot ke Tangerang",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "polkadot",
+            "Lokasi Pengiriman": "Tangerang"
+        }
+    },
+    {
+        "input": "Pesan 2 piring dan 1 gelas bermotif polkadot ke Tangerang",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "piring",
+                "gelas"
+            ],
+            "Motif": "polkadot",
+            "Lokasi Pengiriman": "Tangerang"
+        }
+    },
+    {
+        "input": "Kirimkan 1 mangkuk",
+        "output": {
+            "Jumlah barang": [
+                1
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin memesan 2 cangkir dan 1 piring",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin memesan 2 cangkir dan 1 piring",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan sendok ke Jakarta",
+        "output": {
+            "Jumlah barang": [],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Tolong kirimkan sendok ke Jakarta",
+        "output": {
+            "Jumlah barang": [],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Pesan 3 mangkuk bermotif daun",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "daun",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 3 mangkuk bermotif daun",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "daun",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya butuh 1 gelas dan 2 sendok bermotif vintage ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                1,
+                2
+            ],
+            "Nama barang": [
+                "gelas",
+                "sendok"
+            ],
+            "Motif": "vintage",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Saya butuh 1 gelas dan 2 sendok bermotif vintage ke Surabaya",
+        "output": {
+            "Jumlah barang": [
+                1,
+                2
+            ],
+            "Nama barang": [
+                "gelas",
+                "sendok"
+            ],
+            "Motif": "vintage",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Kirimkan 2 piring",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 2 piring",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin membeli 1 cangkir dan 1 mangkuk bermotif etnik ke Bali",
+        "output": {
+            "Jumlah barang": [
+                1,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 1 cangkir dan 1 mangkuk bermotif etnik ke Bali",
+        "output": {
+            "Jumlah barang": [
+                1,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Pesan 2 gelas dan 1 piring",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 2 gelas dan 1 piring",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 1 sendok dan 3 mangkuk bermotif floral ke Medan",
+        "output": {
+            "Jumlah barang": [
+                1,
+                3
+            ],
+            "Nama barang": [
+                "sendok",
+                "mangkuk"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Kirimkan 1 sendok dan 3 mangkuk bermotif floral ke Medan",
+        "output": {
+            "Jumlah barang": [
+                1,
+                3
+            ],
+            "Nama barang": [
+                "sendok",
+                "mangkuk"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Saya butuh 2 cangkir",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 1 piring dan 2 sendok bermotif garis-garis",
+        "output": {
+            "Jumlah barang": [
+                1,
+                2
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": "garis-garis",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 3 gelas dan 1 mangkuk",
+        "output": {
+            "Jumlah barang": [
+                3,
+                1
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 3 gelas dan 1 mangkuk",
+        "output": {
+            "Jumlah barang": [
+                3,
+                1
+            ],
+            "Nama barang": [
+                "gelas",
+                "mangkuk"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin memesan 5 piring dan 3 sendok.",
+        "output": {
+            "Jumlah barang": [
+                5,
+                3
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin memesan 5 piring dan 3 sendok.",
+        "output": {
+            "Jumlah barang": [
+                5,
+                3
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 4 mangkuk ke Jakarta.",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Pesan 2 gelas bermotif modern.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 2 gelas bermotif modern.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya butuh 3 cangkir dan 1 piring ke Bali.",
+        "output": {
+            "Jumlah barang": [
+                3,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Saya butuh 3 cangkir dan 1 piring ke Bali.",
+        "output": {
+            "Jumlah barang": [
+                3,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Bali"
+        }
+    },
+    {
+        "input": "Kirimkan 6 sendok.",
+        "output": {
+            "Jumlah barang": [
+                6
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin membeli 2 mangkuk bermotif etnik ke Surabaya.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Saya ingin membeli 2 mangkuk bermotif etnik ke Surabaya.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Tolong pesan 1 gelas dan 2 piring.",
+        "output": {
+            "Jumlah barang": [
+                1,
+                2
+            ],
+            "Nama barang": [
+                "gelas",
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 3 cangkir dengan motif floral.",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 3 cangkir dengan motif floral.",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 5 piring ke Medan.",
+        "output": {
+            "Jumlah barang": [
+                5
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Medan"
+        }
+    },
+    {
+        "input": "Saya butuh 2 sendok dan 4 gelas.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                4
+            ],
+            "Nama barang": [
+                "sendok",
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya butuh 2 sendok dan 4 gelas.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                4
+            ],
+            "Nama barang": [
+                "sendok",
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin memesan 4 piring.",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 3 sendok bermotif klasik.",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": "klasik",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 2 gelas ke Jakarta.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Pesan 2 gelas ke Jakarta.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Saya butuh 5 mangkuk dan 2 cangkir.",
+        "output": {
+            "Jumlah barang": [
+                5,
+                2
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "cangkir"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 1 piring dan 4 sendok.",
+        "output": {
+            "Jumlah barang": [
+                1,
+                4
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin membeli 3 gelas bermotif modern.",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin membeli 3 gelas bermotif modern.",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": "modern",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong pesan 2 cangkir dan 1 mangkuk.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong pesan 2 cangkir dan 1 mangkuk.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "cangkir",
+                "mangkuk"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 6 piring bermotif floral ke Bandung.",
+        "output": {
+            "Jumlah barang": [
+                6
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Pesan 6 piring bermotif floral ke Bandung.",
+        "output": {
+            "Jumlah barang": [
+                6
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": "floral",
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Kirimkan 4 sendok.",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 4 sendok.",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya butuh 2 mangkuk dan 3 gelas ke Surabaya.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                3
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Saya butuh 2 mangkuk dan 3 gelas ke Surabaya.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                3
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Saya ingin memesan 3 cangkir.",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 5 piring bermotif.",
+        "output": {
+            "Jumlah barang": [
+                5
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 5 piring bermotif.",
+        "output": {
+            "Jumlah barang": [
+                5
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 2 gelas ke Jakarta.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Jakarta"
+        }
+    },
+    {
+        "input": "Saya butuh 4 mangkuk dan 1 sendok.",
+        "output": {
+            "Jumlah barang": [
+                4,
+                1
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 1 piring.",
+        "output": {
+            "Jumlah barang": [
+                1
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin membeli 2 gelas dengan motif.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong pesan 3 cangkir dan 2 sendok.",
+        "output": {
+            "Jumlah barang": [
+                3,
+                2
+            ],
+            "Nama barang": [
+                "cangkir",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 6 piring ke Bandung.",
+        "output": {
+            "Jumlah barang": [
+                6
+            ],
+            "Nama barang": [
+                "piring"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Bandung"
+        }
+    },
+    {
+        "input": "Kirimkan 4 sendok.",
+        "output": {
+            "Jumlah barang": [
+                4
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya butuh 2 mangkuk dan 3 gelas.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                3
+            ],
+            "Nama barang": [
+                "mangkuk",
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 1 cangkir bermotif etnik.",
+        "output": {
+            "Jumlah barang": [
+                1
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Tolong kirimkan 1 cangkir bermotif etnik.",
+        "output": {
+            "Jumlah barang": [
+                1
+            ],
+            "Nama barang": [
+                "cangkir"
+            ],
+            "Motif": "etnik",
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 2 piring dan 1 sendok.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Pesan 2 piring dan 1 sendok.",
+        "output": {
+            "Jumlah barang": [
+                2,
+                1
+            ],
+            "Nama barang": [
+                "piring",
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin memesan 5 gelas.",
+        "output": {
+            "Jumlah barang": [
+                5
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Saya ingin memesan 5 gelas.",
+        "output": {
+            "Jumlah barang": [
+                5
+            ],
+            "Nama barang": [
+                "gelas"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    },
+    {
+        "input": "Kirimkan 3 mangkuk ke Surabaya.",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Kirimkan 3 mangkuk ke Surabaya.",
+        "output": {
+            "Jumlah barang": [
+                3
+            ],
+            "Nama barang": [
+                "mangkuk"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": "Surabaya"
+        }
+    },
+    {
+        "input": "Saya butuh 2 sendok.",
+        "output": {
+            "Jumlah barang": [
+                2
+            ],
+            "Nama barang": [
+                "sendok"
+            ],
+            "Motif": null,
+            "Lokasi Pengiriman": null
+        }
+    }
+]
